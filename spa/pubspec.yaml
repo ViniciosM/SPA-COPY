@@ -1,0 +1,57 @@
+name: spa
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+ 
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  provider: ^5.0.0
+  carousel_slider: ^4.0.0
+  easy_dynamic_theme: ^2.0.0
+  shared_preferences: ^2.0.6
+  desktop_window: ^0.4.0
+  adaptive_dialog: ^1.1.0
+  get: ^4.3.8
+  data_table_2: ^2.1.1
+  charts_flutter: ^0.11.0
+  get_it: ^7.2.0
+  mobx: ^2.0.4
+  parse_server_sdk_flutter: ^3.1.0
+  flutter_mobx: ^2.0.2
+  material_design_icons_flutter: ^5.0.5955-rc.1
+  flutter_svg: ^0.22.0
+  fl_chart: ^0.36.1
+  table_calendar: ^3.0.2
+  awesome_dialog: ^2.1.1
+  brasil_fields: ^1.2.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  mobx_codegen: ^2.0.3
+  build_runner: ^2.1.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/icons/
