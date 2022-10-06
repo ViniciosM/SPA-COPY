@@ -6,8 +6,6 @@ import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
 import 'package:provider/provider.dart';
 import 'package:spa/controllers/menu_controller.dart';
 import 'package:spa/pages/base/base_page.dart';
-import 'package:spa/pages/forms/tabs_forms.dart';
-import 'package:spa/pages/login/login.dart';
 import 'package:spa/stores/address_store.dart';
 import 'package:spa/stores/coordinator_store.dart';
 import 'package:spa/stores/login_store.dart';
@@ -64,8 +62,8 @@ Future<void> initializeParse() async {
 */
 
 Future<void> initializeParse() async {
-  const appId = 'YLsbmnyq9CsuReNP7ahjvXdRnpsmw5LEYknvdc3f';
-  const clientKey = 'lm1aCVJxkQrnY7UcZe3LdeBHEHHxYR7mmnZflT8S';
+  const appId = 'eCWYYuwpxd080SFdV3zLwFLzZoTksvUM6jznpzXM';
+  const clientKey = 'Xql4xsoSLYX06a8N7TeB1j93L2JQzs801utzv6Dm';
   const serverURL = 'https://parseapi.back4app.com/';
   //const liveQueryUrl = 'https://spa.b4a.io/';
 
